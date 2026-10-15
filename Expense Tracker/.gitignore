@@ -1,0 +1,19 @@
+# Compiled executable files
+*.exe
+*.out
+a.out
+
+# Personal expense data
+expenses.csv
+
+# Build folders
+build/
+cmake-build-*/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
