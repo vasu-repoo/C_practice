@@ -1,0 +1,17 @@
+
+# Compiled executables
+dsa
+dsa.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
