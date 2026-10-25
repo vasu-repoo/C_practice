@@ -94,11 +94,11 @@ The programs are organized into folders by topic for easy navigation.
 ```text
 C_practice/
 │
+├── banking/
 ├── basics/
-├── patterns/
-├── functions/
-├── arrays-and-strings/
-├── oop/
+├── dsa-visualizer/
+├── expense-tracker/
 ├── games/
+├── patterns/
 │
 └── README.md
