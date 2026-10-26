@@ -1,0 +1,17 @@
+
+# Compiled executables
+railway
+railway.exe
+a.out
+
+# Object files
+*.o
+*.obj
+
+# IDE files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
