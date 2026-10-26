@@ -1,90 +1,156 @@
-Railway Reservation System in C++
 
-A console-based Railway Reservation System developed in C++17 as an intermediate-level programming project.
+# Railway Reservation System in C++
 
-Features
-Display available trains and seat counts
-Search trains by source and destination
-Book tickets for multiple passengers
-Generate unique six-digit PNR numbers
-Check booking status using a PNR
-Cancel confirmed bookings
-Automatically release cancelled seats
-View all booking records
-Store booking information in a local text file
-Validate user input and handle invalid menu choices
-Technologies Used
-C++17
-Structures and vectors
-File handling (ifstream and ofstream)
-String processing
-Random number generation
-Project Structure
-text
-Railway-Reservation-System/
-├── main.cpp
-├── README.md
-├── .gitignore
-└── bookings.txt   # Generated automatically
+A console-based Railway Reservation System developed using C++17.
+This project simulates basic railway ticket booking operations and
+demonstrates object-oriented programming concepts, file handling,
+and data management.
 
-Requirements
-A C++17-compatible compiler
-GCC, Clang, or a compatible C++ compiler
-A terminal or command prompt
-Installation and Setup
-1. Clone the repository
-bash
-git clone https://github.com/vasu-repoo/C_practice/tree/main/railway-reservation-system
-cd Railway-Reservation-System
+## Features
 
+- Display all available trains
+- Search trains by source and destination
+- Book tickets for multiple passengers
+- Generate unique six-digit PNR numbers
+- Check booking status using PNR
+- Cancel confirmed bookings
+- Release seats after cancellation
+- Display all booking records
+- Save bookings to a local text file
+- Handle invalid menu input
 
-2. Compile the program
+## Technologies Used
+
+- C++17
+- Structures and vectors
+- File handling
+- String processing
+- Random number generation
+
+## Project Structure
+
+    Railway-Reservation-System/
+    |
+    |-- main.cpp
+    |-- README.md
+    |-- .gitignore
+    |-- bookings.txt  (created automatically)
+
+## Requirements
+
+- A C++17-compatible compiler
+- GCC, MinGW-w64, or Clang
+- Terminal or command prompt
+
+## Installation and Setup
+
+### Step 1: Clone the Repository
+
+    git clone https://github.com/vasu-repoo/C_practice/tree/main/railway-reservation-system
+
+Enter the project directory:
+
+    cd railway-reservation-system
+
+### Step 2: Compile the Program
 
 Using GCC:
 
-bash
-g++ -std=c++17 -Wall -Wextra main.cpp -o railway
+    g++ -std=c++17 -Wall -Wextra main.cpp -o railway
 
-3. Run the program
+### Step 3: Run the Program
 
-Windows:
+On Windows:
 
-bash
-railway.exe
+    railway.exe
 
+On Linux or macOS:
 
-Linux/macOS:
+    ./railway
 
-bash
-./railway
+## How to Use
 
-How to Use
-Select Display All Trains to see the available routes.
-Select Search Trains by Route to find a train.
-Select Book Ticket and enter the train number and passenger names.
-Save the generated PNR number.
-Use Check PNR Status to view booking details.
-Use Cancel Ticket to cancel a booking.
-Select Display All Bookings to review booking records.
-Data Storage
+1. Run the program.
+2. Select Display All Trains to view available trains.
+3. Select Search Trains by Route to find a train.
+4. Select Book Ticket to reserve seats.
+5. Save the generated PNR number.
+6. Select Check PNR Status to view booking details.
+7. Select Cancel Ticket to cancel a booking.
+8. Select Display All Bookings to view all records.
+9. Select Exit to close the application.
 
-Bookings are saved in bookings.txt in the directory where the program is run. Records are loaded when the application starts, so bookings persist between sessions.
+## Sample Output
 
-The application uses sample train data and is intended for educational purposes. It does not connect to a real railway booking service.
+    ====================================
+       RAILWAY RESERVATION SYSTEM
+    ====================================
+    1. Display All Trains
+    2. Search Trains by Route
+    3. Book Ticket
+    4. Check PNR Status
+    5. Cancel Ticket
+    6. Display All Bookings
+    7. Exit
+    ====================================
+    Enter your choice: 1
 
-Limitations
-Train schedules, fares, and routes are sample data.
-The application is not connected to a live railway database.
-There is no login or administrator authentication.
-Booking data is stored locally without encryption.
-PNR numbers are generated for this local simulation and are not official railway PNRs.
-Future Improvements
-Add ticket fares and total cost calculations.
-Add train schedules and departure times.
-Add administrator login and train management.
-Introduce a database such as SQLite or MySQL.
-Generate printable tickets.
-Add unit tests and improved input validation.
-License
+    AVAILABLE TRAINS
+
+    Train No.  Train Name
+    12001      Shatabdi Express
+    12002      Rajdhani Express
+    12003      Chennai Express
+    12004      Eastern Express
+    12005      Lucknow Express
+
+Example booking:
+
+    Enter your choice: 3
+    Enter train number: 12001
+    Enter number of passengers (1-6): 2
+    Enter name of passenger 1: Rahul
+    Enter name of passenger 2: Priya
+
+    Ticket booked successfully!
+    PNR Number: 482731
+    Train: Shatabdi Express
+    Route: Delhi -> Jaipur
+    Passengers: 2
+
+Note: The PNR shown above is an example. The program generates
+a different number when a booking is created.
+
+## Data Storage
+
+Booking records are saved in bookings.txt.
+
+The program loads saved records when it starts, allowing bookings
+to persist between sessions.
+
+The file is created automatically when booking data is saved.
+
+## Limitations
+
+- Uses sample train information.
+- Does not connect to a real railway reservation service.
+- Does not include user authentication.
+- Stores data locally in a plain-text file.
+- Does not provide real ticket fares or schedules.
+
+## Future Improvements
+
+- Add ticket fare calculation.
+- Add train departure and arrival times.
+- Add administrator login.
+- Integrate an SQLite or MySQL database.
+- Generate printable tickets.
+- Add unit tests.
+
+## License
 
 This project is available under the MIT License.
+
+## Author
+
+Your Name
