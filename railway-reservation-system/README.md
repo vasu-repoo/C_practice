@@ -34,11 +34,9 @@ A terminal or command prompt
 Installation and Setup
 1. Clone the repository
 bash
-git clone https://github.com/YOUR-USERNAME/Railway-Reservation-System.git
+git clone https://github.com/vasu-repoo/C_practice/tree/main/railway-reservation-system
 cd Railway-Reservation-System
 
-
-Replace YOUR-USERNAME with your GitHub username.
 
 2. Compile the program
 
