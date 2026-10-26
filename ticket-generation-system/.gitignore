@@ -1,0 +1,26 @@
+# Compiled C++ executables
+main.exe
+main
+a.exe
+a.out
+
+# Object and compiled files
+*.o
+*.obj
+*.exe
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Personal runtime booking data
+bookings.txt
+ticket_*.txt
