@@ -35,7 +35,7 @@ int main() {
     } while (guess != num);
 
     std::cout << "==============================\n";
-    std::cout << "        GAME OVER!\n";
+    std::cout << "         GAME OVER!\n";
     std::cout << "==============================\n";
 
     return 0;
