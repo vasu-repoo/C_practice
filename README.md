@@ -94,12 +94,7 @@ The programs are organized into folders by topic for easy navigation.
 ```text
 C_practice/
 │
-├── banking/
 ├── basics/
-├── dsa-visualizer/
-├── expense-tracker/
-├── games/
 ├── patterns/
-├── railway-reservation-system/
-├── ticket-generation-system/
+├── projects/
 └── README.md
