@@ -17,7 +17,6 @@ and data management.
 - Release seats after cancellation
 - Display all booking records
 - Save bookings to a local text file
-- Handle invalid menu input
 
 ## Technologies Used
 
